@@ -1,0 +1,74 @@
+@import url("design-system.css");
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* LAYOUT PRINCIPAL */
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.container {
+  width: 90%;
+  max-width: 800px;
+  background-color: var(--color-surface);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0, 229, 255, 0.3);
+}
+
+/* TITULOS */
+h1 {
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+}
+
+/* TEXT */
+p {
+  margin-bottom: 1rem;
+  color: var(--color-text-dim);
+}
+
+/* BOTONES */
+a {
+  display: inline-block;
+  margin: 0.5rem 0;
+  padding: 0.8rem 1rem;
+  background-color: var(--color-primary);
+  color: #000;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+/* PSEUDOCLASE */
+a:hover {
+  background-color: var(--color-secondary);
+  transform: scale(1.05);
+}
+
+/* IMAGENES */
+img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+/* FOOTER */
+footer {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  text-align: center;
+  color: var(--color-text-dim);
+}
