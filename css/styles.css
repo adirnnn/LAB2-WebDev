@@ -72,3 +72,13 @@ footer {
   text-align: center;
   color: var(--color-text-dim);
 }
+
+@media (max-width: 900px) {
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  .right {
+    align-items: center;
+  }
+}
