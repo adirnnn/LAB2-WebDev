@@ -1,21 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Mercado Negro</title>
+<meta charset="UTF-8">
+<title>Mercado Negro</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../css/design-theme.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/layouts.css">
+<link rel="stylesheet" href="../css/components.css">
+<link rel="stylesheet" href="../css/animations.css">
+
 </head>
-<body>
 
-<h1>Mercado Negro</h1>
+<body class="state-decision">
 
-<p>
-Un vendedor te ofrece información a cambio de algo valioso.
-</p>
+<div class="layout-main fade-in">
 
-<img src="../assets/mercado.jpg" width="400">
+    <section class="layout-column">
+        <h1 class="pulse">Mercado Negro</h1>
+        <p>
+            Un vendedor encapuchado te ofrece información clasificada
+            sobre el origen del portal.
+        </p>
+        <p>
+            El precio es alto. Pero la verdad podría cambiarlo todo.
+        </p>
+    </section>
 
-<a href="final_neutro.html">Aceptar el trato</a><br>
-<a href="laboratorio.html">Rechazar y buscar el laboratorio</a>
+    <section>
+        <img src="../assets/mercado.jpg" alt="Mercado oscuro" class="portal-glow">
+    </section>
+
+    <section class="layout-column">
+        <p><strong>¿Qué decides hacer?</strong></p>
+
+        <a href="final_neutro.html" class="choice-btn">
+            Aceptar el trato
+        </a>
+
+        <a href="laboratorio.html" class="choice-btn">
+            Rechazar y buscar el laboratorio
+        </a>
+    </section>
+
+</div>
 
 <footer>
 <p><small>El Eco del Portal Rojo</small></p>

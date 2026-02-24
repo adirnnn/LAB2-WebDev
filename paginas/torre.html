@@ -1,21 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>La Torre</title>
+<meta charset="UTF-8">
+<title>La Torre Abandonada</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../css/design-theme.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/layouts.css">
+<link rel="stylesheet" href="../css/components.css">
+<link rel="stylesheet" href="../css/animations.css">
+
 </head>
-<body>
 
-<h1>Bienvenido aLa Torre Abandonada</h1>
+<body class="state-decision">
 
-<p>
-Encuentras notas antiguas sobre experimentos dimensionales.
-</p>
+<div class="layout-main fade-in">
 
-<img src="../assets/torre.jpg" width="400">
+    <section class="layout-column">
+        <h1 class="pulse">La Torre Abandonada</h1>
+        <p>
+            Encuentras notas antiguas sobre experimentos dimensionales
+            realizados en secreto hace décadas.
+        </p>
+        <p>
+            El generador aún puede activarse… pero nadie sabe las consecuencias.
+        </p>
+    </section>
 
-<a href="final_neutro.html">Activar el generador</a><br>
-<a href="final_malo.html">Ignorar las advertencias y encender todo</a>
+    <section>
+        <img src="../assets/torre.jpg" alt="Torre abandonada" class="portal-glow">
+    </section>
+
+    <section class="layout-column">
+        <p><strong>¿Qué decides hacer?</strong></p>
+
+        <a href="final_neutro.html" class="choice-btn">
+            Activar el generador
+        </a>
+
+        <a href="final_malo.html" class="choice-btn">
+            Ignorar advertencias y encender todo
+        </a>
+    </section>
+
+</div>
 
 <footer>
 <p><small>El Eco del Portal Rojo</small></p>

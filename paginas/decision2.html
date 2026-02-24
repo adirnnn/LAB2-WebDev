@@ -1,21 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>La ciudad</title>
+<meta charset="UTF-8">
+<title>La Ciudad Despierta</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../css/design-theme.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/layouts.css">
+<link rel="stylesheet" href="../css/components.css">
+<link rel="stylesheet" href="../css/animations.css">
+
 </head>
-<body>
 
-<h1>Bienvenido a La Ciudad Despierta</h1>
+<body class="state-decision">
 
-<p>
-En la ciudad encuentras rumores sobre experimentos secretos.
-</p>
+<div class="layout-main fade-in">
 
-<img src="../assets/ciudad.jpg" width="400">
+    <section class="layout-column">
+        <h1 class="pulse">La Ciudad Despierta</h1>
+        <p>
+            En la ciudad encuentras rumores sobre experimentos secretos
+            relacionados con energía dimensional.
+        </p>
+        <p>
+            Algunos hablan de un laboratorio oculto. Otros mencionan un
+            mercado negro donde se comercia tecnología prohibida.
+        </p>
+    </section>
 
-<a href="mercado.html">Preguntar en el mercado negro</a><br>
-<a href="laboratorio.html">Buscar un laboratorio oculto</a>
+    <section>
+        <img src="../assets/ciudad.jpg" alt="Ciudad futurista" class="portal-glow">
+    </section>
+
+    <section class="layout-column">
+        <p><strong>¿Qué decides hacer?</strong></p>
+
+        <a href="mercado.html" class="choice-btn">
+            Preguntar en el mercado negro
+        </a>
+
+        <a href="laboratorio.html" class="choice-btn">
+            Buscar un laboratorio oculto
+        </a>
+    </section>
+
+</div>
 
 <footer>
 <p><small>El Eco del Portal Rojo</small></p>

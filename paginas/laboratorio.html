@@ -1,21 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Laboratorio Secreto</title>
+<meta charset="UTF-8">
+<title>Laboratorio Secreto</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../css/design-theme.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/layouts.css">
+<link rel="stylesheet" href="../css/components.css">
+<link rel="stylesheet" href="../css/animations.css">
+
 </head>
-<body>
 
-<h1>Laboratorio Secreto</h1>
+<body class="state-decision">
 
-<p>
-Descubres que el portal es una prueba militar fallida.
-</p>
+<div class="layout-main fade-in">
 
-<img src="../assets/laboratorio.jpg" width="400">
+    <section class="layout-column">
+        <h1 class="pulse">Laboratorio Secreto</h1>
+        <p>
+            Descubres que el portal es el resultado de una prueba militar fallida
+            diseñada para manipular energía dimensional.
+        </p>
+        <p>
+            El sistema aún está activo. Puedes apagarlo… o forzarlo.
+        </p>
+    </section>
 
-<a href="final_bueno.html">Apagar el sistema</a><br>
-<a href="final_malo.html">Sobrecargar el reactor</a>
+    <section>
+        <img src="../assets/laboratorio.jpg" alt="Laboratorio oculto" class="portal-glow">
+    </section>
+
+    <section class="layout-column">
+        <p><strong>¿Qué decides hacer?</strong></p>
+
+        <a href="final_bueno.html" class="choice-btn">
+            Apagar el sistema
+        </a>
+
+        <a href="final_malo.html" class="choice-btn">
+            Sobrecargar el reactor
+        </a>
+    </section>
+
+</div>
 
 <footer>
 <p><small>El Eco del Portal Rojo</small></p>
