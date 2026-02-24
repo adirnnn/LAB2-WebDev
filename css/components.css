@@ -1,0 +1,25 @@
+.choice-btn {
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  background: var(--color-primary);
+  color: #000;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.choice-btn:hover {
+  transform: translateY(-4px) scale(1.03);
+  background: var(--color-secondary);
+  box-shadow: 0 0 15px rgba(0,229,255,0.6);
+}
+
+.choice-btn:active {
+  transform: scale(0.95);
+}
+
+.choice-btn:focus-visible {
+  outline: 3px solid var(--color-accent);
+  outline-offset: 3px;
+}

@@ -1,0 +1,42 @@
+:root {
+
+  --color-primary: #00e5ff;
+  --color-secondary: #ff1744;
+  --color-accent: #8b5cf6;
+
+  --color-bg-main: #0f172a;
+  --color-bg-surface: #1e293b;
+
+  --color-text: #e2e8f0;
+  --color-text-dim: #94a3b8;
+
+  --state-start-bg: #0f172a;
+  --state-decision-bg: #111827;
+  --state-good-bg: #052e16;
+  --state-bad-bg: #450a0a;
+  --state-neutral-bg: #1e1b4b;
+
+  --font-primary: 'Orbitron', sans-serif;
+  --font-secondary: 'Inter', sans-serif;
+
+}
+
+body.state-start {
+  background: var(--state-start-bg);
+}
+
+body.state-decision {
+  background: var(--state-decision-bg);
+}
+
+body.state-good {
+  background: var(--state-good-bg);
+}
+
+body.state-bad {
+  background: var(--state-bad-bg);
+}
+
+body.state-neutral {
+  background: var(--state-neutral-bg);
+}

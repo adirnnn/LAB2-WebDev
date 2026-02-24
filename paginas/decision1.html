@@ -2,22 +2,34 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/design-theme.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/layouts.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/animations.css">
     <title>El bosque oscuro</title>
 </head>
-<body>
 
-<h1>Bienvenido al Bosque Oscuro</h1>
+<body class="state-decision">
+<div class="layout-main fade-in">
 
-<p>
-El bosque está <b>extrañamente silencioso</b>. El portal late como un corazón detrás tuya.
-</p>
+    <section class="layout-column">
+        <h1>Bienvenido al Bosque Oscuro</h1>
+        <p> El bosque está <b>extrañamente silencioso</b>. El portal late como un corazón detrás tuya.</p>
+    </section>
 
-<img src="../assets/bosque.jpg" width="400">
+<section>
+<img src="../assets/bosque.jpg" alt="Bosque misterioso">
+</section>
 
-<p>Decides:</p>
+  <section class="layout-column">
+    <p>Decides:</p>
+    <a href="cueva.html" class="choice-btn">Explorar la cueva</a>
+    <a href="torre.html" class="choice-btn">Subir a la torre</a>
+  </section>
 
-<a href="cueva.html">Explorar una cueva cercana</a><br>
-<a href="torre.html">Subir a una torre abandonada</a>
+</div>
 
 <footer>
 <p><small>El Eco del Portal Rojo</small></p>

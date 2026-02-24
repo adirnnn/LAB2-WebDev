@@ -1,0 +1,32 @@
+@import url("design-theme.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-secondary);
+  background: var(--color-bg-main);
+  color: var(--color-text);
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+footer {
+    text-align: center;
+    background: var(--color-bg-surface);
+    color: var(--color-text-dim);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+}
+
+img {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+}

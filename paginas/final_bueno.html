@@ -1,23 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>Final Bueno</title>
+<meta charset="UTF-8">
+<title>Final Bueno</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="../css/design-theme.css">
+<link rel="stylesheet" href="../css/base.css">
+<link rel="stylesheet" href="../css/layouts.css">
+<link rel="stylesheet" href="../css/components.css">
+<link rel="stylesheet" href="../css/animations.css">
+
 </head>
-<body>
 
-<h1>Final Bueno</h1>
+<body class="state-good">
 
-<p>
-Logras cerrar el portal. El mundo se salva.
-</p>
+<div class="layout-main fade-in">
 
-<img src="../assets/breakfree.jpg" width="400">
+    <section class="layout-column">
+        <h1 class="pulse">Final Bueno</h1>
+        <p>
+            Logras cerrar el portal. El cristal absorbe la energía restante y
+            el resplandor rojo desaparece lentamente.
+        </p>
+        <p>
+            El mundo se salva. Nadie sabrá lo cerca que estuvo el desastre.
+        </p>
+    </section>
 
-<a href="../index.html">Volver al inicio</a>
+    <section>
+        <img src="../assets/breakfree.jpg" alt="Portal cerrado" class="portal-glow">
+    </section>
+
+    <section class="layout-column">
+        <p><strong>Has alcanzado el final bueno.</strong></p>
+
+        <a href="../index.html" class="choice-btn">
+            Volver al inicio
+        </a>
+    </section>
+
+</div>
 
 <footer>
-<p><small>Final Bueno</small></p>
+<p><small>El Eco del Portal Rojo — Final Bueno</small></p>
 </footer>
 
 </body>

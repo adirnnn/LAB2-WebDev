@@ -1,37 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>El Eco del Portal Rojo</title>
+<meta charset="UTF-8">
+<title>El Eco del Portal Rojo</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/design-theme.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/layouts.css">
+<link rel="stylesheet" href="css/components.css">
+<link rel="stylesheet" href="css/animations.css">
+
 </head>
-<body>
-    <div class="container"></div>
 
-<div class="layout">
+<body class="state-start">
 
-  <div class="left">
-    <h1>La Historia del Eco del Portal Rojo</h1>
+<div class="layout-main fade-in">
+
+  <section class="layout-column">
+    <h1 class="pulse">La Historia del Eco del Portal Rojo</h1>
     <p>
       Es el año 1987. En las afueras de la ciudad apareció un portal rojo brillante.
       Nadie sabe de dónde vino. Tú debes investigarlo.
     </p>
-  </div>
+  </section>
 
-  <div class="center">
-    <img src="assets/portal.jpg" alt="Portal rojo">
-  </div>
+  <section>
+    <img src="assets/portal.jpg" alt="Portal rojo" class="portal-glow">
+  </section>
 
-  <div class="right">
+  <section class="layout-column">
     <p><strong>¿Qué decides hacer?</strong></p>
-    <a href="paginas/decision1.html">Ir hacia el bosque donde apareció el portal</a>
-    <a href="paginas/decision2.html">Buscar información en la ciudad</a>
-  </div>
+
+    <a href="paginas/decision1.html" class="choice-btn">
+      Ir hacia el bosque donde apareció el portal
+    </a>
+
+    <a href="paginas/decision2.html" class="choice-btn">
+      Buscar información en la ciudad
+    </a>
+  </section>
 
 </div>
 
 <footer>
-<p><small>Laboratorio HTML NGINX AL231361</small></p>
+<p><small>Laboratorio CSS - AL231361</small></p>
 </footer>
 
 </body>
